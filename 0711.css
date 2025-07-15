@@ -20,6 +20,7 @@ h1{
 }
 
 .fish-icon{
+	color: midnightblue;
 	position:fixed;
 	top:20px;
 	right:20px;
