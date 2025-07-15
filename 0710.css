@@ -1,0 +1,43 @@
+		*{
+ margin-top: 20px;
+ margin-left: 15px;
+ padding: 0px;
+ box-sizing: border-box;
+}
+
+
+body{
+	font-family: Arial;
+    background-color: ghostwhite;
+
+h1{
+	color: white;
+	background-color: springgreen;
+	display: inline-block;
+	padding: 4px 8px;
+	margin-bottom: 30px;
+}
+
+.fish-icon{
+	position:fixed;
+	top:20px;
+	right:20px;
+	text-decoration: none;
+
+}
+
+p{
+	font-size: 20px;
+	font-weight: 500;
+	text-decoration: underline;
+}
+     
+img{
+	width: 200px;
+}
+
+
+@media screen and (max-width: 704px) {
+
+
+}

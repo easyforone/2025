@@ -1,0 +1,73 @@
+		*{
+ margin-top: 20px;
+ margin-left: 15px;
+ padding: 0px;
+ box-sizing: border-box;
+}
+
+
+body{
+	font-family: Arial;
+    background-color: ghostwhite;
+}
+
+h1{
+	color: white;
+	background-color: springgreen;
+	display: inline-block;
+	padding: 4px 8px;
+	margin-bottom: 30px;
+}
+
+.fish-icon{
+	color: hotpink;
+	position:fixed;
+	top:20px;
+	right:20px;
+	text-decoration: none;
+
+}
+
+p{
+	font-size: 20px;
+	font-weight: 500;
+	text-decoration: underline;
+}
+
+.pizza-hover{
+	font-size:0;
+	position:relative;
+	display: inline-block;
+}
+
+.pizza-hover a{
+	font-size: 16px;
+}
+
+
+
+.popup-img{
+	display: none;
+	position: absolute;
+	top: 100%;
+	left: 0;
+	width:150px;
+	background: white;
+	border: solid 4px hotpink;
+	padding: 5px;
+	z-index: 10;
+}
+
+.pizza-hover:hover .popup-img{
+	display: block;
+}
+     
+img{
+	width: 200px;
+}
+
+
+@media screen and (max-width: 704px) {
+
+
+}

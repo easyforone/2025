@@ -1,0 +1,52 @@
+		*{
+ margin : 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+
+body{
+	font-family: Arial;
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background-color: ghostwhite;
+
+}
+
+ul{
+	list-style-type: none;
+}
+
+li{
+	margin: 10px;
+	font-size: 20px;
+	padding: 5px;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+ .menu-link:hover {
+	color: white;
+	background-color: springgreen;
+	font-weight: bold;
+}
+
+ .fish-icon {
+ 	font-size: 30px;
+ 	color: midnightblue;
+
+ }	
+
+
+
+
+@media screen and (max-width: 704px) {
+
+
+}
